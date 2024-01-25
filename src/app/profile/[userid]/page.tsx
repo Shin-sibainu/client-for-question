@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
-import apiClient from "../../../lib/apiClient";
-import { GetServerSideProps } from "next";
-import { Profile } from "../../../types";
+// import React, { useEffect } from "react";
+// import apiClient from "../../../lib/apiClient";
+// import { GetServerSideProps } from "next";
+// import { Profile } from "../../../types";
 
-type Props = {
-  profile: Profile;
-  posts: PostType[];
-};
+// type Props = {
+//   profile: Profile;
+//   posts: PostType[];
+// };
 
 // export const getServerSideProps: GetServerSideProps = async (context: any) => {
 //   const { userId } = context.query;
@@ -75,4 +75,4 @@ type Props = {
 //   );
 // };
 
-export default UserProfile;
+// export default UserProfile;
